@@ -11,6 +11,9 @@
 		4518C5FC2AD22077004DA4E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4518C5FB2AD22077004DA4E0 /* ContentView.swift */; };
 		4518C5FE2AD22079004DA4E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4518C5FD2AD22079004DA4E0 /* Assets.xcassets */; };
 		4518C6012AD22079004DA4E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4518C6002AD22079004DA4E0 /* Preview Assets.xcassets */; };
+		4518C60A2AD3425D004DA4E0 /* MoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4518C6092AD3425D004DA4E0 /* MoonView.swift */; };
+		4518C60C2AD34267004DA4E0 /* MoonQuakes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4518C60B2AD34267004DA4E0 /* MoonQuakes.swift */; };
+		4518C60E2AD34272004DA4E0 /* LunarLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4518C60D2AD34272004DA4E0 /* LunarLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		4518C5FB2AD22077004DA4E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4518C5FD2AD22079004DA4E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4518C6002AD22079004DA4E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4518C6092AD3425D004DA4E0 /* MoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonView.swift; sourceTree = "<group>"; };
+		4518C60B2AD34267004DA4E0 /* MoonQuakes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonQuakes.swift; sourceTree = "<group>"; };
+		4518C60D2AD34272004DA4E0 /* LunarLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunarLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				4518C5F92AD22077004DA4E0 /* MoonquexApp.swift */,
 				4518C5FB2AD22077004DA4E0 /* ContentView.swift */,
+				4518C6092AD3425D004DA4E0 /* MoonView.swift */,
+				4518C60B2AD34267004DA4E0 /* MoonQuakes.swift */,
+				4518C60D2AD34272004DA4E0 /* LunarLocation.swift */,
 				4518C5FD2AD22079004DA4E0 /* Assets.xcassets */,
 				4518C5FF2AD22079004DA4E0 /* Preview Content */,
 			);
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4518C60A2AD3425D004DA4E0 /* MoonView.swift in Sources */,
 				4518C5FC2AD22077004DA4E0 /* ContentView.swift in Sources */,
+				4518C60E2AD34272004DA4E0 /* LunarLocation.swift in Sources */,
+				4518C60C2AD34267004DA4E0 /* MoonQuakes.swift in Sources */,
 				4518C5FA2AD22077004DA4E0 /* MoonquexApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
