@@ -52,7 +52,7 @@ struct ContentView: View {
                         VStack(alignment: .leading) {
                             Text("Location: \(moonquake.latitude), \(moonquake.longitude)")
                             Text("Date: \(moonquake.date)")
-                                .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
+                                .multilineTextAlignment(.leading)
                             Text("Depth: \(moonquake.depth ?? 0.0)")
                             Text("Magnitude: \(moonquake.magnitude ?? 0.0)")
                         }
